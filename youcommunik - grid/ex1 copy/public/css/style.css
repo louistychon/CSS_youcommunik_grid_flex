@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.responsive{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 1px 25px 0px lightgrey;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+section p{
+    padding:10px;
+}
+
+h1{
+    font-size: 4vw;
+}
+
+h2{
+    font-size: 3vw;
+}
+
+/*NAV*/
+
+nav p{
+    font-size: 2vh;
+}
+
+header {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 9fr
+}
+
+.logo {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    padding: 1%;
+    width:100%;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    margin: auto;
+}
+
+#package {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #334d5c;
+    color: white;
+
+}
+
+#package div {
+    display: block;
+    margin: auto;
+}
+
+.flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+
+}
+
+.btn-fonce {
+    margin-top: 7%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#eclosion,
+#evolution {
+    display: block;
+    margin: auto;
+    background-color: #334d5c;
+    width: 25%;
+    color: white;
+}
+
+#eclosion p {
+    display: block;
+    margin: auto;
+}
+
+.rose-container {
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.rose-item{
+  margin:auto;
+  display:inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width:25%;
+}
+
+.rose-container img {
+    width: 25%;
+}
+
+.container{
+    width:100%;
+}
+
+.img {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+footer {
+    background-color: #334d5c;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-footer:nth-child(1){
+    order
+}
+
+.img-footer img {
+    width: 25%;
+    padding:1%;
+}
+
+footer h3{
+    margin-left:5%;
+    margin-top:5%;
+}
